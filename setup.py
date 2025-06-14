@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(  
-    name="image-processing-package",
+    name="flaubert-image-processing", 
     version="0.1.0",
     description="Pacote de processamento de imagens em Python",
     long_description=open("README.md", encoding="utf-8").read(),
