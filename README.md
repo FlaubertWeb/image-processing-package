@@ -1,27 +1,24 @@
-# package_name
+# image-processing-package
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Pacote de processamento de imagens em Python, desenvolvido como desafio do bootcamp DIO/Suzano.
 
-## Installation
+## Funcionalidades
+- Conversão para tons de cinza, redimensionamento e transformações básicas.
+- Combinação de imagens.
+- Utilitários para leitura, exibição e manipulação de arquivos de imagem.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+## Instalação
+
+Clone o repositório, ative o ambiente virtual, instale as dependências e o pacote:
 
 ```bash
-pip install package_name
-```
+git clone https://github.com/FlaubertWeb/image-processing-package.git
+cd image-processing-package
+python -m venv .venv
+# Windows:
+.\.venv\Scripts\activate
+# Linux/Mac:
+source .venv/bin/activate
 
-## Usage
-
-```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
-```
-
-## Author
-My_name
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+pip install -r requirements.txt
+pip install -e .
